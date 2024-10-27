@@ -1,0 +1,12 @@
+{
+  "extends": "@repo/typescript-config/react.json",
+  "include": ["src", "components"],
+  "exclude": ["dist", "build"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "types": ["vitest/globals", "@testing-library/jest-dom/vitest"]
+  }
+}

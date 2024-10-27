@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .one-line-ellipsis {
+    @apply overflow-hidden text-ellipsis whitespace-nowrap;
+  }
+
+  .two-line-ellipsis,
+  .three-line-ellipsis {
+    @apply overflow-hidden text-ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+  }
+
+  .two-line-ellipsis {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+
+  .three-line-ellipsis {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+}
+
+.hover-scale {
+  @apply transition-transform duration-300 ease-in-out hover:scale-105;
+}
