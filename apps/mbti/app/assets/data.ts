@@ -40,3 +40,31 @@ export const QUESTIONS = [
     text: `그때그때 즉흥적으로 끌리는 메뉴를 선택해서 식사하는 게 좋다.`,
   },
 ];
+
+export const ANSWERS = [
+  {
+    value: "매우 아니다",
+    type: "disagree",
+    score: 2,
+  },
+  {
+    value: "아니다",
+    type: "disagree",
+    score: 1,
+  },
+  {
+    value: "보통이다",
+    type: "none",
+    score: 0,
+  },
+  {
+    value: "그렇다",
+    type: "agree",
+    score: 1,
+  },
+  {
+    value: "매우 그렇다",
+    type: "agree",
+    score: 2,
+  },
+];
