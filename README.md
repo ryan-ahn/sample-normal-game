@@ -1,4 +1,4 @@
-# Ryan's Normal Game
+# Ryan's Normal Game!
 
 ![Author](https://img.shields.io/badge/Author-ryan-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
