@@ -5,8 +5,7 @@ export default {
       reporter: ["text", "html", "json-summary", "json", "lcov"],
       enabled: true,
       include: [
-        "apps/mbti/app/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
-        "apps/array/app/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
+        "apps/**/app/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
         "packages/**/src/**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}",
       ],
       exclude: [
