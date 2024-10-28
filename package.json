@@ -1,5 +1,7 @@
 {
-  "name": "boilerplate-turborepo-starter",
+  "name": "sample-normal-game",
+  "author": "Ryan Ahn",
+  "description": "Sample Normal Game",
   "private": true,
   "engines": {
     "node": ">=20"
